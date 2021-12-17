@@ -10,4 +10,4 @@ then move forward,
 and this step is performed 4 times in order to achieve the zumo going around the object once it has detected it
 After moving around the object, the zumo then briefly rotate left and right and goes forward to search for another object.
 
-Video is available showing the performance of zumo on this code.
+EDIT: Video could not be uploaded since the maximum mb limit is 25mb
