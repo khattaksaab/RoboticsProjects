@@ -25,7 +25,7 @@ This is project which consists three challenges involving programming an Aruiono
 - #include <ZumoMotors.h>
 - #include <Pushbutton.h>
 
-## Challenge 1:
+# Challenge 1:
 
 Make a zumo robot go straight for a certain distance. 
 
@@ -36,7 +36,7 @@ In this code the robot goes forward for 2 seconds at 200 motor speed at both whe
 
 > Link to how I coded challege 1 is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%201/challenge1_move_in_straightLine.ino).
 
-## Challenge 2:
+# Challenge 2:
 
 Make a zumo robot perform a square.
 
@@ -46,7 +46,7 @@ In this, the zumo is supposed to perform a square. The zumo bot goes forward at 
 
 > Link to how I coded **Challege 2** is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%202/challenge_2_zumo_square.ino).
   
-## Challenge 3:
+# Challenge 3:
 
 Object detection using an ultasonic sensor. The zumo robot should detect an object and then move around the object to complete this challenge
 
@@ -57,4 +57,16 @@ First, the zumo goes forward searching for an object and rotates to the left and
  ![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/61862550/146653390-8715e216-e133-4b81-a1af-a20368f0de9b.gif)
 
 > Link to how I coded **Challege 2** is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%203/challenge3_zumo_objectDetection.ino).
+
+# Schematic for Challenge 3
+
+<img width="985" alt="image" src="https://user-images.githubusercontent.com/61862550/146653696-ab6daacd-a484-476b-9c46-27b89bba700c.png">
+
+# Issues
+
+In challenge I had trouble making the motors work, even though I had coded correctly, the zumo motors won't seem to work properly. Spent a couple of hours to debug the issue. However later I found out that the issue was infact related to the pin number where I had connected the trig and echo pins for the Ultrasonic sensor. They were conencted on the pins used for the Zumo motors and Light sensor array. After selected the correct pin numbers, the zumo motors and ultra sonic sensors worked perfectly fine, however a lot of time had passed.
+
+# What's next?
+
+I found challenge 3 to be very interesting. I would like to work more on object detection while the bot is moving around the object. If it encounted an object while revoling around the object it should the re calibrate the distance and go around the object. 
 
