@@ -34,7 +34,7 @@ Make a zumo robot go straight for a certain distance.
 
 In this code the robot goes forward for 2 seconds at 200 motor speed at both wheel and then stops. Video is available under **Challange 1 folder** to show its performance.
 
-> Link to how I coded challege 1 is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%201/challenge1_move_in_straightLine.ino).
+> Link to how I coded challenge 1 is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%201/challenge1_move_in_straightLine.ino).
 
 # Challenge 2:
 
@@ -44,7 +44,7 @@ Make a zumo robot perform a square.
 
 In this, the zumo is supposed to perform a square. The zumo bot goes forward at a fixed delay time Then rotates right at 90 degree angle buy rotating the wheels in opposite directions a fixed speed and fixed delay to achieve a 90 degree turn This code is repeated 4 times for 4 turns to achieve a square
 
-> Link to how I coded **Challege 2** is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%202/challenge_2_zumo_square.ino).
+> Link to how I coded **Challenge 2** is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%202/challenge_2_zumo_square.ino).
   
 # Challenge 3:
 
@@ -56,7 +56,7 @@ First, the zumo goes forward searching for an object and rotates to the left and
  
  ![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/61862550/146653390-8715e216-e133-4b81-a1af-a20368f0de9b.gif)
 
-> Link to how I coded **Challege 2** is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%203/challenge3_zumo_objectDetection.ino).
+> Link to how I coded **Challenge 2** is [here](https://github.com/khattaksaab/RoboticsProjects/blob/main/Challenge%203/challenge3_zumo_objectDetection.ino).
 
 # Schematic for Challenge 3
 
