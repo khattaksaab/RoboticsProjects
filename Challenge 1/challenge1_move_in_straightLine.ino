@@ -26,7 +26,7 @@ void setup()
 }
 
 void loop()  //  move zumo for a certain distance and then stop
-  // run left motor forward
+  
   motors.setSpeeds(forward_speed, forward_speed);
   delay(2000);
   motors.setSpeeds(0,0);
