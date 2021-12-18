@@ -3,12 +3,12 @@
 
 
 #define LED_PIN 13
-const int trigPin = 5;
-const int echoPin = 4;
-Pushbutton button(ZUMO_BUTTON);
+const int trigPin = 5; //trig pin on the ultrasonic sensor to receive signal
+const int echoPin = 4; //echo pin on the ultrasonic sensor to give signal
+Pushbutton button(ZUMO_BUTTON); //zumo button
 
 ZumoMotors motors;
- long duration, inches, cm;
+ long duration, inches, cm; 
 
 void setup()
 {
